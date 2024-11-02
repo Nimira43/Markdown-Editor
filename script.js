@@ -1,1 +1,6 @@
-
+const startBtn = document.querySelector('start-button')
+const ship = document.querySelector('.ship')
+const container = document.querySelector('.container')
+const fire = document.querySelector('.fire')
+const score = document.querySelector('.score')
+const containerDimensions = container.getBoundingClientRect()
