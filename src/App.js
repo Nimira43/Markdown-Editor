@@ -1,6 +1,12 @@
+import Markdown from './components/Markdown'
+import Preview from './components/Preview'
+
 export default function App() {
   return (
-    <div>App</div>
+    <div className="container">
+      <Markdown />
+      <Preview />
+    </div>
   )
 }
 
