@@ -27,7 +27,40 @@ p {
 }
 
 .container {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 5px 0;
+}
+
+.markdown {
+  border-right: 2px dotted var(--grey-lg);
+  height: 100vh;
   padding: 15px;
 }
+
+.textarea {
+  background-color: transparent;
+  padding: 16rem;
+  border-radius: 5px;
+  border: 2px dotted var(--grey-lg);
+  width: 100%;
+  outline: none;
+  /* overflow: hidden; */
+  font-size: 18px;
+  height: 100vh;
+}
+
+.preview {
+  padding: 15px;
+}
+
+.preview-heading {
+  font-size: 18px;
+  padding-bottom: 15px;
+  border-bottom: 2px dotted var(--grey-lg);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+

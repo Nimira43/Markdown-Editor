@@ -1,5 +1,7 @@
 export default function Preview() {
   return (
-    <div>Preview</div>
+    <div className="preview">
+      <h1 className="preview-heading">Preview</h1>
+    </div>
   )
 }
