@@ -1,9 +1,6 @@
-const App = () => {
+export default function App() {
   return (
-    <div>
-      <h1>Markdown Reader</h1>
-    </div>
+    <div>App</div>
   )
 }
 
-export default App

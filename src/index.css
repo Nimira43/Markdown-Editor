@@ -3,4 +3,25 @@
 * {
   font-family: 'League Spartan', sans-serif;
   font-weight: 200;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --prime: #ff4500;
+  --dark: #111;
+  --grey-dk: #333;
+  --grey-lg: #ccc;
+  --light: #eee;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+p {
+  line-height: 1.8;
+  font-size: 16px;
 }
