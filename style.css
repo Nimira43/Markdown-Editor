@@ -17,4 +17,20 @@ body {
     url('./images/bg.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  background: transparent;
+  border: 2px dotted #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.start-button {
+  
 }
